@@ -34,9 +34,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <h1>Joe's stuff he has been procrastinating.</h1>
         <form onSubmit={this.addTodo}>
           <input
-          placeholder="new"
+          placeholder="Lets do some stuff!!!"
           onChange={this.updateNewTodo}  
           value={this.state.newTodo}
           />
