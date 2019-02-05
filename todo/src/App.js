@@ -41,6 +41,7 @@ class App extends Component {
           value={this.state.newTodo}
           />
         </form>
+        <button onClick={this.addTodo}>Add Todo</button>
         <TodoList todos={this.props.todos} />
       </div>
     );
